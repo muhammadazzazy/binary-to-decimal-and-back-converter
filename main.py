@@ -29,7 +29,7 @@ def dec2bin(decimal_value: int) -> str:
 
 
 def main() -> None:
-    print('This program converts from binary to decimal or vice versa!')
+    print('This program converts from binary to decimal and vice versa!')
     base_dict = {'binary': 2, 'decimal': 10}
 
     while True:
