@@ -50,12 +50,13 @@ def main() -> None:
             if base == base_dict['binary']:
                 dec_val = int(user_input)
                 bin_equiv = dec2bin(dec_val)
-                print(f'{user_input} is equivalent to {bin_equiv}.')
+                print(f'The binary equivalent of {user_input} is {bin_equiv}.')
             elif base == base_dict['decimal']:
                 if is_binary(user_input):
                     bin_val = user_input
                     dec_equiv = bin2dec(bin_val)
-                    print(f'{user_input} is equivalent to {dec_equiv}.')
+                    print(
+                        f'The decimal equivalent of {user_input} is {dec_equiv}.')
                 else:
                     print('Invalid binary string...')
                     continue
