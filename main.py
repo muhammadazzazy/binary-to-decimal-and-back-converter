@@ -31,7 +31,7 @@ def dec2bin(decimal_value: int) -> str:
 
 def main() -> None:
     print('Welcome to The Base-2️⃣-to-Base-🔟-and-Back Converter!')
-    base_dict = {'binary': 2, 'decimal': 10}
+    base_dict: dict[str, int] = {'binary': 2, 'decimal': 10}
     exit_message: str = 'Exiting program...'
     while True:
         try:
